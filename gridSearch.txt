@@ -1,0 +1,22 @@
+Function Description
+
+Complete the gridSearch function in the editor below. It should return YES if the pattern exists in the grid, or NO otherwise.
+
+gridSearch has the following parameter(s):
+
+G: the grid to search, an array of strings
+P: the pattern to search for, an array of strings
+Input Format
+
+The first line contains an integer t, the number of test cases.
+
+Each of the t test cases is represented as follows:
+The first line contains two space-separated integers R and C, indicating the number of rows and columns in the grid G.
+This is followed by R lines, each with a string of C digits representing the grid G.
+The following line contains two space-separated integers, r and c, indicating the number of rows and columns in the pattern grid P.
+This is followed by r lines, each with a string of c digits representing the pattern P.
+
+
+Output Format
+
+Display YES or NO, depending on whether P is present in G.
